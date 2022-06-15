@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto';
+
+}
+
+header{
+    background-color: rgba(35, 66, 74, 1);
+    /* border: 1px solid red; */
+    padding: 50px 0;
+
+}
+
+.container{
+    width: 80%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.container p {
+    color: rgba(255, 255, 255, 0.473);
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 2.5rem;
+}
+
+.container button {
+    background: none;
+    background-color: #38CFD9 ;
+    padding: 1em 1.8em;
+    border-radius: 25px;
+    font-size: .9rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
